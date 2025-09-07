@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>IngFot.06</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+    <h1>Летний мини-турнир в Ингушетии</h1>
+    <p>Мини-футбол среди министерств, ведомств и организаций Республики Ингушетия</p>
+</header>
+    
+    <main>
+        <section class="news">
+            <h2>🔥 Последние новости</h2>
+            <div class="card">
+            <h2>Первые команды которые вышли в полуфинал</h2>
+            <section 
+            class="teams-container">
+    <div class="team-item">
+        <img src="ikonka.png" alt="Аль-Барака">
+        <p>Аль-Барака</p>
+    </div>
+
+    <div class="team-item">
+        <img src="ikonka1.png" alt="Прокуратура/Адвокаты">
+        <p>Прокуратура/Адвокаты</p>
+        <button class="obzor-button" onclick="window.location.href='video1.html'">
+    Обзор матча
+</button>
+    </div>
+
+    <div class="team-item">
+        <img src="ikonka2.png" alt="СКР">
+        <p>СКР</p>
+                <button class="obzor-button" onclick="window.location.href='video1.html'">
+    Обзор матча
+</button>
+    </div>
+</section>
+
+    <!-- Контейнер для картинок -->
+    <div id="image-container" style="display: none; margin-top: 1rem;">
+        <img src="results.jpg" alt="Результаты матчей" style="width: 100%; max-width: 800px; border-radius: 8px; margin-bottom: 1rem;">
+        <img src="table.jpg" alt="Турнирная таблица" style="width: 100%; max-width: 800px; border-radius: 8px; margin-bottom: 1rem;">
+        <img src="top-scorers.jpg" alt="Бомбардиры" style="width: 100%; max-width: 800px; border-radius: 8px; margin-bottom: 1rem;">
+        <img src="match1.jpg" alt="Матч 1" style="width: 100%; max-width: 800px; border-radius: 8px; margin-bottom: 1rem;">
+        <img src="match2.jpg" alt="Матч 2" style="width: 100%; max-width: 800px; border-radius: 8px;">
+    </div>
+</section>
+
+        <section class="teams">
+            <h2>🏆 5 лидеров</h2>
+            <h3>1. Прокуратура/Адвокаты</h3>
+            <h3>2. СКР</h3>
+            <h3>3. Аль-Барака</h3>
+            <h3>4. Айтишники</h3>
+            <h3>5. Сириус</h3>
+        </section>
+    </main>
+
+  <main>
+    <section class="results">
+        <h2>🎯 Итоги матчей</h2>
+        <p>Посмотреть результаты и топ-5 голов тура!</p>
+
+        <!-- Кнопка 1: на страницу с фото -->
+        <button onclick="window.location.href='results.html'">Показать результаты</button>
+
+        <!-- Кнопка 2: на страницу с видео -->
+        <button onclick="window.location.href='video.html'">Тут голы</button>
+    </section>
+</main>
+    
+    <footer>
+        <p>&copy; 2025 Футбольный сайт. Все права защищены.</p>
+    </footer>

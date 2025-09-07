@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Обзор матча</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #003366;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        h1 {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            background: #ffcc00;
+            color: #000000;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgb(255, 255, 255);
+            transition: all 0.2s ease;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        video {
+            width: 100%;
+            height: 400px;
+            background: #000000;
+            border-radius: 8px;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            background: #ffcc00;
+            color: #000000;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgb(255, 255, 255);
+            transition: all 0.2s ease;
+        }
+
+        .back-button:hover {
+            background: #e6b800;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>🎥 Обзор матча</h1>
+
+    <div class="video-container">
+        <video controls>
+            <source src="match2.mp4" type="video/mp4">
+            Ваш браузер не поддерживает воспроизведение видео.
+        </video>
+    </div>
+
+    <button class="back-button" onclick="window.location.href='index.html'">
+        ⬅️ Назад
+    </button>
+</body>
+</html>

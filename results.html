@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Результаты матчей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #003366;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .image-box {
+            flex: 1;
+            min-width: 250px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-box h3 {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Результаты матчей</h1>
+
+    <div class="gallery">
+        <div class="image-box">
+            <img src="results.jpg" alt="Результаты матчей">
+            <h3>Результаты матчей</h3>
+        </div>
+
+        <div class="image-box">
+            <img src="table.jpg" alt="Турнирная таблица">
+            <h3>Турнирная таблица</h3>
+        </div>
+
+        <div class="image-box">
+            <img src="top-scorers.jpg" alt="Бомбардиры">
+            <h3>Бомбардиры</h3>
+        </div>
+
+        <div class="image-box">
+            <img src="match1.jpg" alt="Матч 1">
+            <h3>Матч 1</h3>
+        </div>
+
+        <div class="image-box">
+            <img src="match2.jpg" alt="Матч 2">
+            <h3>Матч 2</h3>
+        </div>
+    </div>
+</body>
+</html>
